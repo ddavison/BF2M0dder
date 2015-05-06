@@ -1,0 +1,35 @@
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.Apply.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.BF2BotSwap.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.BF2Modder.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.BF2TickIT.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.Loading.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.ModName.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.Properties.Resources.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.SearchForm.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.SplashScreen.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2 M0dd3r.csproj.GenerateResource.Cache
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.BF2Weaponizer.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.Saving_File.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.AboutBox.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.copyingMod.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.saveAsNewMod.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.ScanNetworkMods.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.AutomaticLogin.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.Participation.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.DONE.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.LANServer.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.Copying.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.HostServer.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.BF2BotNamer.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.creatingModFolder.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.pluginManager.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.ServerSettings.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.pluginRunner.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.mediaEditor.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.optionsScreen.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2_M0dd3r.bugReport.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\bin\Release\BF2 Modder RC 0.9.1.exe.config
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\bin\Release\BF2 Modder RC 0.9.1.exe
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\BF2 M0dd3r\obj\x86\Release\BF2 Modder RC 0.9.1.exe

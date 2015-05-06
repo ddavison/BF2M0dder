@@ -1,0 +1,8 @@
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\plugins\Mod Importer\Mod Importer\Mod Importer\bin\Debug\Mod Importer.exe
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\plugins\Mod Importer\Mod Importer\Mod Importer\bin\Debug\Mod Importer.pdb
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\plugins\Mod Importer\Mod Importer\Mod Importer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\plugins\Mod Importer\Mod Importer\Mod Importer\obj\Debug\Mod_Importer.mainForm.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\plugins\Mod Importer\Mod Importer\Mod Importer\obj\Debug\Mod_Importer.Properties.Resources.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\plugins\Mod Importer\Mod Importer\Mod Importer\obj\Debug\Mod Importer.csproj.GenerateResource.Cache
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\plugins\Mod Importer\Mod Importer\Mod Importer\obj\Debug\Mod Importer.exe
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\plugins\Mod Importer\Mod Importer\Mod Importer\obj\Debug\Mod Importer.pdb

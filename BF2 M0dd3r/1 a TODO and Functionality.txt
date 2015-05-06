@@ -1,0 +1,19 @@
+﻿
+
+Add 64 bit OS support.
+
+finish the Load Recent Mods.
+
+ok...
+
+filldirectories() will be the zip. if it's "" then it's /tmp/objects_server.zip.
+
+if not, load it from there.
+for example, say the zip is in the mod directory.
+
+it will be 
+FillDirectories(C:\{rootbf2mdir}\mods\Objects_server(ModName).zip);
+
+then it will do the stuff.
+
+worry about apply curent mod later, it would be about the modPath or something.

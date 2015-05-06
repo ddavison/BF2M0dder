@@ -1,0 +1,528 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{65077ACC-2DF3-4DDA-86A7-5B1C50D7E4AB}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BF2_M0dd3r</RootNamespace>
+    <AssemblyName>BF2 Modder RC 0.9.1</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SourceAnalysisOverrideSettingsFile>C:\Users\DJ\AppData\Roaming\ICSharpCode/SharpDevelop3.0\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
+    <ApplicationIcon>appicon085.ico</ApplicationIcon>
+    <SignManifests>false</SignManifests>
+    <SignAssembly>false</SignAssembly>
+    <StartupObject>BF2_M0dd3r.Program</StartupObject>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.Design, Version=8.7.0.0, Culture=neutral, PublicKeyToken=e116d99a00eca71b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\DotNetBar\Bin\DevComponents.DotNetBar.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=8.7.0.0, Culture=neutral, PublicKeyToken=e116d99a00eca71b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\DotNetBar\Bin\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.WMPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MyAlarm\MyAlarm\bin\Release\Interop.WMPLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apply.Designer.cs">
+      <DependentUpon>Apply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AutomaticLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutomaticLogin.Designer.cs">
+      <DependentUpon>AutomaticLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BF2BotNamer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BF2BotNamer.Designer.cs">
+      <DependentUpon>BF2BotNamer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BF2BotSwap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BF2BotSwap.Designer.cs">
+      <DependentUpon>BF2BotSwap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BF2MConstants.cs" />
+    <Compile Include="BF2Modder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BF2Modder.Designer.cs">
+      <DependentUpon>BF2Modder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BF2TickIT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BF2TickIT.Designer.cs">
+      <DependentUpon>BF2TickIT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BF2Weaponizer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BF2Weaponizer.Designer.cs">
+      <DependentUpon>BF2Weaponizer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bugReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bugReport.Designer.cs">
+      <DependentUpon>bugReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Copying.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Copying.Designer.cs">
+      <DependentUpon>Copying.cs</DependentUpon>
+    </Compile>
+    <Compile Include="copyingMod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="copyingMod.Designer.cs">
+      <DependentUpon>copyingMod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="creatingModFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="creatingModFolder.Designer.cs">
+      <DependentUpon>creatingModFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DONE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DONE.Designer.cs">
+      <DependentUpon>DONE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HostServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HostServer.Designer.cs">
+      <DependentUpon>HostServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LANServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LANServer.Designer.cs">
+      <DependentUpon>LANServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mediaEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mediaEditor.Designer.cs">
+      <DependentUpon>mediaEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModName.Designer.cs">
+      <DependentUpon>ModName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="optionsScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="optionsScreen.Designer.cs">
+      <DependentUpon>optionsScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pluginManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pluginManager.Designer.cs">
+      <DependentUpon>pluginManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pluginRunner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pluginRunner.Designer.cs">
+      <DependentUpon>pluginRunner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Participation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Participation.Designer.cs">
+      <DependentUpon>Participation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="saveAsNewMod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="saveAsNewMod.Designer.cs">
+      <DependentUpon>saveAsNewMod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Saving File.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Saving File.Designer.cs">
+      <DependentUpon>Saving File.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScanNetworkMods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScanNetworkMods.Designer.cs">
+      <DependentUpon>ScanNetworkMods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchForm.Designer.cs">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerSettings.Designer.cs">
+      <DependentUpon>ServerSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="svSettings.cs" />
+    <Compile Include="SyntaxRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XMLParser.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apply.resx">
+      <DependentUpon>Apply.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutomaticLogin.resx">
+      <DependentUpon>AutomaticLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BF2BotNamer.resx">
+      <DependentUpon>BF2BotNamer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BF2BotSwap.resx">
+      <DependentUpon>BF2BotSwap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BF2Modder.resx">
+      <DependentUpon>BF2Modder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BF2TickIT.resx">
+      <DependentUpon>BF2TickIT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BF2Weaponizer.resx">
+      <DependentUpon>BF2Weaponizer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bugReport.resx">
+      <DependentUpon>bugReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Copying.resx">
+      <DependentUpon>Copying.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="copyingMod.resx">
+      <DependentUpon>copyingMod.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="creatingModFolder.resx">
+      <DependentUpon>creatingModFolder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DONE.resx">
+      <DependentUpon>DONE.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HostServer.resx">
+      <DependentUpon>HostServer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LANServer.resx">
+      <DependentUpon>LANServer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mediaEditor.resx">
+      <DependentUpon>mediaEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModName.resx">
+      <DependentUpon>ModName.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="optionsScreen.resx">
+      <DependentUpon>optionsScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pluginManager.resx">
+      <DependentUpon>pluginManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pluginRunner.resx">
+      <DependentUpon>pluginRunner.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Participation.resx">
+      <DependentUpon>Participation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="saveAsNewMod.resx">
+      <DependentUpon>saveAsNewMod.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Saving File.resx">
+      <DependentUpon>Saving File.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScanNetworkMods.resx">
+      <DependentUpon>ScanNetworkMods.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchForm.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerSettings.resx">
+      <DependentUpon>ServerSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addmod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addmod1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addmod2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splashimg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preferences.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\autoList.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\screenshot.10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ActiveX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Journal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CommentHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savemod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newmod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closemod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closefile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tweakfile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applymod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="cursor_busy.ani" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\bf2.png" />
+    <None Include="1 a TODO and Functionality.txt" />
+    <Content Include="appicon.ico" />
+    <None Include="Resources\appicon1.png" />
+    <Content Include="appicon085.ico" />
+    <Content Include="beta_installer.ico" />
+    <None Include="Resources\ReverHS.png" />
+    <None Include="Resources\RepeatHS.png" />
+    <None Include="Resources\mainMenuIcon.png" />
+    <None Include="Resources\NewFolderHS.png" />
+    <None Include="Resources\NewDocumentHS.png" />
+    <None Include="Resources\EditTableHS.png" />
+    <None Include="Resources\StopHS.png" />
+    <None Include="Resources\PauseHS.png" />
+    <None Include="Resources\FormRunHS.png" />
+    <None Include="Resources\refresh_new.png" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\BF2m0dd3r_splash_bg1.png" />
+    <None Include="Resources\appicon2.png" />
+    <None Include="Resources\BF2m0dd3r_splash_bg.png" />
+    <None Include="Resources\101.ico" />
+    <None Include="Resources\compactflash.ico" />
+    <None Include="Resources\RefreshDocViewHS.png" />
+    <None Include="Resources\restoreicon1.png" />
+    <None Include="Resources\restoreicon.png" />
+    <None Include="Resources\Edit_UndoHS.png" />
+    <None Include="Resources\Edit_RedoHS.png" />
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+</Project>

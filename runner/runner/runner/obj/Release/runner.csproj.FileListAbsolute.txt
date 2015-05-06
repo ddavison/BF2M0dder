@@ -1,0 +1,8 @@
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\runner\runner\runner\obj\Release\ResolveAssemblyReference.cache
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\runner\runner\runner\obj\Release\runner.frmRunner.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\runner\runner\runner\obj\Release\runner.Properties.Resources.resources
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\runner\runner\runner\obj\Release\runner.csproj.GenerateResource.Cache
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\runner\runner\runner\bin\Release\BF2 Modder Runner.exe
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\runner\runner\runner\bin\Release\BF2 Modder Runner.pdb
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\runner\runner\runner\obj\Release\BF2 Modder Runner.exe
+C:\Users\DJ\Documents\sharpdev\BF2 M0dd3r\runner\runner\runner\obj\Release\BF2 Modder Runner.pdb
